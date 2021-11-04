@@ -25,7 +25,7 @@ import java.util.Collections;
 @RequestMapping(value = "/v1")
 public class SignController {
 
-    private final UserJpaRepository userJpaRepository; // jpa 쿼리 활용
+    private final UserJpaRepository userJpaRepository; // jpa 쿼리 활용.
     private final JwtTokenProvider jwtTokenProvider; // jwt 토큰 생성
     private final ResponseService responseService; // API 요청 결과에 대한 code, message
     private final PasswordEncoder passwordEncoder; // 비밀번호 암호화
